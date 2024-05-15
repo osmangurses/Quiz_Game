@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SoruAtama : MonoBehaviour
 {
+    public static SoruAtama instance;
     public TextMeshProUGUI soruText;
     public TextMeshProUGUI[] secenekler;
     public TumSorular sorularVeCevaplar;
@@ -12,6 +13,7 @@ public class SoruAtama : MonoBehaviour
 
     private void Start()
     {
+        instance = this;
         SoruAta();
     }
     public void SoruAta()
@@ -21,6 +23,5 @@ public class SoruAtama : MonoBehaviour
         {
             secenekler[i].text = sorularVeCevaplar.sorular[soruSayaci].secenekler[i];
         }
-
     }
 }
