@@ -9,5 +9,6 @@ public class Soru : ScriptableObject
     public string soru;
     public string[] secenekler; 
     public int dogruSecenek;
+    public Color color;
 
 }

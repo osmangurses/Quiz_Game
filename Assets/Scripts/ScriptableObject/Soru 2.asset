@@ -19,3 +19,4 @@ MonoBehaviour:
   - Van
   - "\u0130stanbul"
   dogruSecenek: 0
+  color: {r: 0, g: 0.105446815, b: 1, a: 1}

@@ -19,3 +19,4 @@ MonoBehaviour:
   - 15
   - 20
   dogruSecenek: 2
+  color: {r: 0.030668736, g: 1, b: 0, a: 1}

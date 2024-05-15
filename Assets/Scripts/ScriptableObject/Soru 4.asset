@@ -19,3 +19,4 @@ MonoBehaviour:
   - Ligue 1
   - La Liga
   dogruSecenek: 3
+  color: {r: 0, g: 0, b: 0, a: 1}
